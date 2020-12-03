@@ -17,6 +17,6 @@ public class Main {
         }
     }
     static boolean checkEmail(String line){
-        return line.matches("^\\w[\\w-_\\.]*@[\\w]+\\.+[\\w]{2,4}");
+        return line.matches("^\\w[\\w-\\.]*@[\\w]+\\.[\\w]{2,4}");
     }
 }
